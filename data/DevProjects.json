@@ -1,0 +1,93 @@
+{
+  "data" : [{
+    "idName": "netZero",
+    "projectTitle": "NIST Net-Zero",
+    "projectLink": "https://pages.nist.gov/netzero/",
+    "skills": "HTML, CSS, JS, MongoDB, Express, NodeJS,  AWS:S3",
+    "charact1": "Created data.html page",
+    "charact2": "Configured the AWS S3 bucket to host the data files",
+    "charact3": "Debuted the website at TechCrunch SF 2016",
+    "charact4": ""
+  },
+  {
+    "idName": "oppProj",
+    "projectTitle": "The Opportunity Project",
+    "projectLink": "http://opportunity.census.gov/",
+    "skills": "HTML, CSS, JS, HandlebarsJS, MixItUp",
+    "charact1": "Created feature.html page",
+    "charact2": "Used MixItUp Plugin to create gallery",
+    "charact3": "Debuted the restyled website at the White House",
+    "charact4": ""
+  },
+  {
+    "idName": "itaTravel",
+    "projectTitle": "ITA Travel Tracker",
+    "projectLink": "https://github.com/maabrown/ITA_Principal_Travel",
+    "skills": "HTML, CSS, JS, Django, Docker",
+    "charact1": "Assisted with building a query filter for Event Types",
+    "charact2": "Created a new model for Event type query",
+    "charact3": "Built familiary with the Docker container",
+    "charact4": ""
+  },
+  {
+    "idName": "CDAC",
+    "projectTitle": "Commerce Data Advisory Council",
+    "projectLink": "https://github.com/maabrown/CDAC_Redesign-1",
+    "skills": "HTML, CSS, JS",
+    "charact1": "Built the main page and meeting pages",
+    "charact2": "Solved code conflicts between ESA Drupal header and footer and CDS page code",
+    "charact3": "",
+    "charact4": ""
+  },
+  {
+    "idName": "CDS",
+    "projectTitle": "Commerce Data Service",
+    "projectLink": "https://www.commerce.gov/dataservice/",
+    "skills": "HTML, CSS, JS, MixItUp, SlickJS, HighCharts",
+    "charact1": "Built the team picture section using MixItUp Plugin",
+    "charact2": "Implemented the horizontal scrolling DoC logos",
+    "charact3": "Built the Project Dashboard using the Highcharts library",
+    "charact4": ""
+  },
+  {
+    "idName": "alexaSkill",
+    "projectTitle": "Business Finder (Alexa Skill)",
+    "projectLink": "https://github.com/maabrown/AlexaSkillRepo",
+    "skills": "JS. NodeJS",
+    "charact1": "Built an Alexa Skill using Census Survey of Business Owners API",
+    "charact2": "Alexa will tell you how many female or male-owned businesses there are in any US state",
+    "charact3": "",
+    "charact4": ""
+  },
+  {
+    "idName": "frogger",
+    "projectTitle": "Frogger Game",
+    "projectLink": "http://maabrown.github.io/frontend-nanodegree-arcade-game/",
+    "skills": "HTML, CSS, JS",
+    "charact1": "Coded player, enemies, and other game entities in JavaScript’s object-oriented pseudoclassical style",
+    "charact2": "Demonstrates an intermediate handling of object-oriented programming",
+    "charact3": "",
+    "charact4": ""
+  },
+  {
+    "idName": "catClicker",
+    "projectTitle": "Cat Clicker App",
+    "projectLink": "http://maabrown.github.io/CatApp/",
+    "skills": "HTML, CSS, JS, JQuery, KnockoutJS",
+    "charact1": "Used KnockoutJS to reduce the amount of boilerplate code needed for the app",
+    "charact2": "Coded a single-page application that tracks information via user interaction",
+    "charact3": "Demonstrates an understanding of classes and MVC code structure",
+    "charact4": ""
+  },
+  {
+    "idName": "jsClass",
+    "projectTitle": "Intro to JS Class",
+    "projectLink": "https://github.com/maabrown/JS_Class_Sept_2016",
+    "skills": "JS",
+    "charact1": "Taught 3 hour introductory class to DoC employees",
+    "charact2": "Introduced them to data types, variables, loops, and simple functions",
+    "charact3": "",
+    "charact4": ""
+  }
+]
+}

@@ -72,44 +72,69 @@
 
 		<div class="row work-content">
 			<div>
-				<a href="#netZero" role="button" data-toggle="modal"><img src="img/NIST-NetZero.png"></a>
-				<img src="img/OppProject.png">
-				<img src="img/ITA_Travel.png">	
+				<a href="#netZero" role="button" data-toggle="modal"><img src="img/NIST-NetZero-2.png"></a>
+				<a href="#oppProj" role="button" data-toggle="modal"><img src="img/Opp-Proj-2.png"></a>
+				<a href="#itaTravel" role="button" data-toggle="modal"><img src="img/ITA_Travel.png"></a>	
 			</div>
 
 			<div>
-				<img src="img/CDAC.png">
-				<img src="img/CDS.png">
-				<img src="img/AlexaSkill.png">	
+				<a href="#CDAC" role="button" data-toggle="modal"><img src="img/CDAC.png"></a>
+				<a href="#CDS" role="button" data-toggle="modal"><img src="img/CDS.png"></a>
+				<a href="#alexaSkill" role="button" data-toggle="modal"><img src="img/AlexaSkill.png"></a>	
 			</div>
 
 			<div>
-				<img src="img/Frogger.png">
-				<img src="img/CatClickerApp.png">
-				<img src="img/IntroToJS.png">	
+				<a href="#frogger" role="button" data-toggle="modal"><img src="img/Frogger.png"></a>
+				<a href="#catClicker" role="button" data-toggle="modal"><img src="img/CatClicker.png"></a>
+				<a href="#jsClass" role="button" data-toggle="modal"><img src="img/JS-Class-Slide.png"></a>	
 			</div>
 
-			<!-- Modal -->
-			<div class="modal fade" id="netZero" tabindex="-1" role="dialog" aria-labelledby="netZero">
-			  <div class="modal-dialog" role="document">
-			    <div class="modal-content">
-			      <div class="modal-header">
-			        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-			        <h4 class="modal-title" id="netzero-Modal-Label">Net-Zero Project</h4>
-			      </div>
-			      <div class="modal-body">
-			        <ul>
-			        	<li>Created data.html page</li>
-			        	<li>Configured the AWS S3 bucket to host the data files</li>
-			        	<li>Built a beta-testing API using MongoDB, Express, and hosting on AWS</li>
-			        	<li>Wrote script that allows for customization when converting files from CSV to JSON</li>
-			        	<li>Can find page at <a href="https://pages.nist.gov/netzero/">NIST Net-Zero</a></li>
-			        	<li>Skills/Languages Used: HTML, CSS, JavaScript, JQuery, MongoDB, Express, NodeJS, DataTables, ScrollSpy</li>
-			        </ul>
-			      </div>
-			    </div>
-			  </div>
-			</div>			
+			<!-- MODAL CODE -->
+			<script type="text/x-handlebars-template" id="modal-template">
+			  {{#each data}}
+				<div class="modal fade" id="{{idName}}" tabindex="-1" role="dialog" aria-labelledby="{{idName}}">
+				  <div class="modal-dialog" role="document">
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				        <h4 class="modal-title">{{projectTitle}} 
+
+				       {{#if projectLink}}
+				        (<a href="{{projectLink}}">Link</a>)
+				       {{/if}}
+
+				        </h4>
+				      </div>
+				      <div class="modal-body">
+				        <ul>
+				        	{{#if charact1}}
+				        	<li>{{charact1}}</li>
+				        	{{/if}}
+
+				        	{{#if charact2}}
+				        	<li>{{charact2}}</li>
+				        	{{/if}}
+
+				        	{{#if charact3}}
+				        	<li>{{charact3}}</li>
+				        	{{/if}}
+
+				        	{{#if charact4}}
+				        	<li>{{charact4}}</li>
+				        	{{/if}}
+
+				        	<br>
+				        	
+				        	<li><b>Skills/Languages Used:</b> {{skills}}</li>
+				        </ul>
+				      </div>
+				    </div>
+				  </div>
+				</div>	
+				{{/each}}
+			</script>
+
+			<!-- The following div ends the work-content div	 -->
 		</div>
 
 		<div class="row public-engagement-header">
@@ -272,6 +297,7 @@
 	
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
 	<script   src="https://code.jquery.com/jquery-3.1.0.js"   integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk="   crossorigin="anonymous"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<script src="js/main.min.js"></script>
 
